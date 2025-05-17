@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>محطة مسرح الحمامات</title>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      background-color: #ffffff;
+    }
+    h1 {
+      color: #2c3e50;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    .image {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .audio-player {
+      margin: 20px 0;
+      width: 100%;
+    }
+    .description {
+      font-size: 16px;
+      color: #333;
+      line-height: 1.8;
+    }
+    .footer {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 14px;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>مسرح الهواء الطلق بالحمامات</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Hammamet-Festival.jpg/800px-Hammamet-Festival.jpg" alt="مسرح الحمامات" class="image" />
+
+    <audio class="audio-player" controls>
+      <source src="station-audio.mp3" type="audio/mp3" />
+      المتصفح لا يدعم تشغيل الصوت.
+    </audio>
+
+    <div class="description">
+      يقع مسرح الهواء الطلق بالحمامات وسط حدائق دار سيباستيان، ويُعد من أبرز المعالم الثقافية في تونس. صممه بول شيميتوف بأسلوب يمزج بين العمارة الكلاسيكية والحديثة. منذ افتتاحه في 1964، احتضن المسرح مهرجان الحمامات الدولي وعديد العروض المسرحية والموسيقية.
+    </div>
+
+    <div class="footer">
+      © Awasser Station – 2025
+    </div>
+  </div>
+</body>
+</html>
